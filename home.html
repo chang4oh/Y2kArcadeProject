@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML CSS</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="batlogo.webp" type="image/png">
     <style>
         /* CSS code */
@@ -29,10 +30,10 @@
             display: inline-flex;
         }
         .container {
-            
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         p {
             line-height: 1.6;
@@ -42,13 +43,8 @@
             color: #fff;
             font-size: 4em;
             text-decoration: none;
-            background-color: #a49f9f;
-            padding: 10px 20px;
-            border-radius: 5px;
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translate(-50%, 50%);
+
+
         }
     </style>
 </head>
@@ -59,8 +55,21 @@
         <h1>WELCOME TO ARCADE</h1>
         <img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex; ">
     </header>
+
     <div class="container">
-        <a href="arcade1.html">ARCADE </a>
+        
+        <div class="arcade-cabinet">
+            <div class="screen">
+                <a href="arcade1.html">ARCADE </a>
+                <!-- Game iframe or embedded game can go here -->
+            </div>
+            <div class="control-panel">
+                <!-- Buttons and joystick (purely decorative or functional) -->
+            </div>
+            <div class="marquee">
+                <!-- Cabinet title or logo -->
+            </div>
+        </div>
     </div>
 </body>
 </html>
