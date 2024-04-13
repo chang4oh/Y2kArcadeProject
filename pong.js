@@ -45,8 +45,8 @@ var Game = {
 		this.canvas = document.querySelector('canvas');
 		this.context = this.canvas.getContext('2d');
 
-		this.canvas.width = 1400;
-		this.canvas.height = 1000;
+		this.canvas.width = 660;
+		this.canvas.height = 600;
 
 		this.canvas.style.width = (this.canvas.width / 2) + 'px';
 		this.canvas.style.height = (this.canvas.height / 2) + 'px';
@@ -67,7 +67,7 @@ var Game = {
 
 	endGameMenu: function (text) {
 		// Change the canvas font size and color
-		Pong.context.font = '50px Courier New';
+		Pong.context.font = '30px Courier New';
 		Pong.context.fillStyle = this.color;
 
 		// Draw the rectangle behind the 'Press any key to begin' text.
@@ -98,7 +98,7 @@ var Game = {
 		Pong.draw();
 
 		// Change the canvas font size and color
-		this.context.font = '50px Courier New';
+		this.context.font = '30px Courier New';
 		this.context.fillStyle = this.color;
 
 		// Draw the rectangle behind the 'Press any key to begin' text.
