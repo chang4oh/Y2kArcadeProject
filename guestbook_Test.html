@@ -1,0 +1,39 @@
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>Guestbook</title> 
+    <link rel="stylesheet" href="guestbook.css"> 
+</head> 
+  
+<body> 
+    <div class="container"> 
+        <h1>Guest Book</h1> 
+        <form id="guestForm"> 
+            <div class="form-input"> 
+                <label for="name">Name:</label> 
+                <input type="text" 
+                       id="name" name="name" 
+                       required> 
+            </div> 
+            <div class="form-input"> 
+                <label for="note">Note:</label> 
+                <input type="text" 
+                       id="note" name="note" 
+                       required> 
+            </div> 
+           
+            <div class="btn"><button type="submit"> 
+                    Add Guest 
+                </button></div> 
+        </form> 
+        <div id="guestList"></div> 
+    </div> 
+    <script src="guestbook.js"></script> 
+</body> 
+  
+</html>
