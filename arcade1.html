@@ -9,7 +9,7 @@
     <style>
         /* CSS code */
         body {
-            background-image: url('splash1.webp');
+            background-image: url('splash.webp');
             background-repeat:repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -19,6 +19,9 @@
             margin: 0;
             padding: 0;
         }
+        body {
+	text-align: center;
+}
         header {
             background-color: #000000;
             color: #fff;
@@ -27,7 +30,7 @@
         }
         h1 {
             margin: 0;
-            display: inline-flex;
+            display: inline-block;
         }
         .container {
             display: flex;
@@ -39,19 +42,21 @@
             line-height: 1.6;
         }
 
+        
     </style>
 </head>
 <body>
+    
     <header>
-        <a href="/Classic Pacman Game using JavaScript/arcade0.html"><img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex;"></a>
+        <a href="/arcade4.html"><img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex;"></a>
         <h1>WELCOME TO ARCADE</h1>
-        <a href="arcade2.html"><img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex;"></a>
+        <a href="/Classic Pacman Game using JavaScript/arcade2.html"><img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex;"></a>
     </header>
     <div class="container">
         
         <div class="arcade-cabinet">
             <div class="screen">
-                
+                <canvas></canvas>
                 <!-- Game iframe or embedded game can go here -->
             </div>
             <div class="control-panel">
@@ -63,4 +68,5 @@
         </div>
     </div>
 </body>
+<script src="pong.js"></script>
 </html>
