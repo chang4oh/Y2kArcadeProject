@@ -1,20 +1,21 @@
-body { 
-    background-color: black; 
+body .containerT{ 
+    background-color: rgb(255, 255, 255); 
     justify-content: center; 
-    display: flex; 
+    display: inline-flex; 
     align-items: center; 
-    height: 100vh; 
+
     font-family: Arial, sans-serif; 
+    flex-direction: column;
 } 
   
-.container { 
+.containerT { 
     width: 300px; 
     padding: 20px; 
     background-color: #fff; 
     border-radius: 8px; 
 } 
   
-.container h1 { 
+.containerT h1 { 
     text-align: center; 
 } 
   
