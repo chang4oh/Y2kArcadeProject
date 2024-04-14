@@ -8,6 +8,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 600;
 canvas.height = 600;
 ctx.scale(.5, .5)
+ctx.translate(300, 300)
 
 const background = new Image();
 background.src = "images/space.png";
