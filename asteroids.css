@@ -10,7 +10,7 @@ body {
 }
 #g-game {
 	font: normal 16px/16px 'Consolas', monospace;
-	position: absolute;
+	
 	top: 48px;
 	left: 0;
 	width: 100%;
