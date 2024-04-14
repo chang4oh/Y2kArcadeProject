@@ -6,6 +6,8 @@
     <title>Basic HTML CSS</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="batlogo.webp" type="image/png">
+    <link rel="stylesheet" href="enduro.css">
+    
     <style>
         /* CSS code */
         body {
@@ -47,46 +49,47 @@
         <h1>WELCOME TO ARCADE</h1>
         <a href="/arcade1.html"><img src="batlogo.webp" style="width: 60px; height: 60px; display: inline-flex;"></a>
     </header>
+
+    <div id="game">
+        <div id="sky"></div>
+        <div id="mountains">
+          <div class="mountain"></div>
+          <div class="mountain"></div>
+          <div class="mountain"></div>
+          <div class="mountain"></div>
+        </div>
+        <div id="terrain"></div>
+        <div id="fog" class="hidden"></div>
+        <canvas id="road"></canvas>
+        <div id="cars"></div>
+        <div id="car" class="player car"></div>
+        <div id="ui">
+          <div id="panel">
+            <div id="km"><a></a><a>0</a><a>0</a><a>0</a><a>0</a><a>0</a></div>
+            <div id="lap"><a>1</a></div>
+            <div id="position"><a>P</a><a>2</a><a>0</a><a>0</a></div>
+          </div>
+        </div>
+      </div>
+        <p>
+            <button id="left"></button>
+            <button id="up"></button>
+            <button id="right"></button>
+        </p>
+        <p><button id="click">Click to start!</button></p>
+        <p>Left/Right Arrows or A/D to steer and<br> 
+            Up Arrow, W or Space to accelerate
+        </p>
     <div class="container">
         
         <div class="arcade-cabinet">
-            <link rel="stylesheet" href="enduro.css">
-<div id="game">
-    <div id="sky"></div>
-    <div id="mountains">
-      <div class="mountain"></div>
-      <div class="mountain"></div>
-      <div class="mountain"></div>
-      <div class="mountain"></div>
-    </div>
-    <div id="terrain"></div>
-    <div id="fog" class="hidden"></div>
-    <canvas id="road"></canvas>
-    <div id="cars"></div>
-    <div id="car" class="player car"></div>
-    <div id="ui">
-      <div id="panel">
-        <div id="km"><a></a><a>0</a><a>0</a><a>0</a><a>0</a><a>0</a></div>
-        <div id="lap"><a>1</a></div>
-        <div id="position"><a>P</a><a>2</a><a>0</a><a>0</a></div>
-      </div>
-    </div>
-  </div>
-  <p>
-    <button id="left"></button>
-    <button id="up"></button>
-    <button id="right"></button>
-  </p>
-  <p><button id="click">Click to start!</button></p>
-  <p>Left/Right Arrows or A/D to steer and<br> 
-    Up Arrow, W or Space to accelerate
-  </p>
-  <script src = "js/enduro.js"> </script>
+
             <div class="screen">
                 
                 <!-- Game iframe or embedded game can go here -->
             </div>
             <div class="control-panel">
+                <audio controls src="/ArcadeBGM/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3"></audio>
                 <!-- Buttons and joystick (purely decorative or functional) -->
             </div>
             <div class="marquee">
@@ -98,6 +101,6 @@
     
 </body>
 
+<script src = "js/enduro.js"> </script>
 
-<audio controls src="/ArcadeBGM/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3"></audio>
 </html>
