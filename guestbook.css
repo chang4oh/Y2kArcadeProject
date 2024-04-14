@@ -1,20 +1,22 @@
 body .containerT{ 
     background-color: rgb(255, 255, 255); 
     justify-content: center; 
-    display: inline-flex; 
     align-items: center; 
 
     font-family: Arial, sans-serif; 
     flex-direction: column;
 } 
   
-.containerT { 
-    width: 300px; 
-    padding: 20px; 
-    background-color: #fff; 
-    border-radius: 8px; 
-} 
-  
+
+.containerT {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20% auto;
+}
+
+
 .containerT h1 { 
     text-align: center; 
 } 
