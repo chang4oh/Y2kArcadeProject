@@ -4,6 +4,8 @@ body {
 }
 .b-panel {
 	padding: 16px;
+	display: inline-block;
+	align-items: end;
 }
 .b-panel_right {
 	float: right;
