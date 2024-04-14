@@ -31,7 +31,7 @@ body {
     background: rgba(255,255,255,0.1);
   }
   #game {
-    width: 320px; height: 240px;
+    width: 280px; height: 240px;
     position: relative;
     margin: 45px auto 40px;  
     perspective: 100px;
