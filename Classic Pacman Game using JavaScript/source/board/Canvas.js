@@ -19,6 +19,7 @@ class Canvas {
         this.ctx.textAlign    = "center";
         this.ctx.textBaseline = "middle";
         this.ctx.scale(1, .8)
+
         
         
         this.rects            = [];
