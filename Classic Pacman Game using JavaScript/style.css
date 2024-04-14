@@ -1,0 +1,61 @@
+/* styles.css */
+
+
+.arcade-cabinet {
+    width: 300px;
+    background: #333;
+    border: 30px solid #222;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.screenT {
+    width: 110%;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 3px solid #555;
+}
+
+.control-panel {
+    width: 110%;
+    padding: 10px;
+    background: #222;
+    display: flex;
+    justify-content: space-around;
+}
+
+.marquee {
+    width: 110%;
+    padding: 5px;
+    margin-top: 10px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #444;
+}
+
+/* Example styles for buttons and joystick */
+.button {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    border: none;
+}
+
+.joystick {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+}
